@@ -1,0 +1,38 @@
+                                              Q & A's 
+
+DEFINE THE LINEAR REGRESSION MODEL: 
+1. Why is linear regression an appropriate starting point for this biological question? 
+2. What assumptions are we making about the relationship between methylation levels and age?
+
+PROCESSTHE DATA WITH A RECIPE:
+3. What other preprocessing steps might be helpful when working with methylation data? 
+4. Would scaling (standardising) the predictors also be beneficial? Why or why not?
+
+FIT THE MODEL:
+5. What is actually happening when we “fit” a linear regression model to methylation data? 
+6. What are we trying to do?
+
+EVALUATE THE MODLE:
+7. Which CpG sites appear most important for predicting age? 
+8. Are there any that don’t seem significantly associated with age?
+
+PERFORMANCE METRICS: 
+9. What would be an acceptable error margin for age prediction in your biological context? 
+10. How might this compare to other methods of age determination in bats?
+
+CHECK MODEL ASSUMPTIONS: 
+11. What assumptions does linear regression make, and do our model diagnostics suggest these assumptions are met? 
+12. Look particularly at: 
+    - Linearity (do residuals show patterns?) 
+    - Homoscedasticity (is residual variance constant across predicted values?) 
+    - Normality of residuals 
+    - Influential outliers
+
+CHALLENGE - IMPROVE THE MODEL: 
+🤔 Stop and Think: 
+13. Based on our diagnostics, what specific improvements might help our model? 
+14. What biological mechanisms might explain non-linear relationships between methylation and age?
+
+
+
+
