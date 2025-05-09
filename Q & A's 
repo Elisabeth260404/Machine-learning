@@ -28,10 +28,27 @@ CHECK MODEL ASSUMPTIONS:
     - Normality of residuals 
     - Influential outliers
 
-CHALLENGE - IMPROVE THE MODEL: 
-🤔 Stop and Think: 
-13. Based on our diagnostics, what specific improvements might help our model? 
-14. What biological mechanisms might explain non-linear relationships between methylation and age?
+TRAINING AND TESTING SETS: 
+13. Why is it important to evaluate our model on a separate test set? What might happen if we only evaluated performance on our training data? 
+14. How does the performance on the test set compare to the training set? If there’s a large difference, what might that indicate? 
+
+CROSS-VALIDATION PERFORMANCE: 
+15. What advantages does cross-validation offer over a single train/test split? How consistent are the results across folds? 
+
+EXPLORING DIFFERENT FOLD NUMBERS: 
+16. How does the number of folds affect the stability and value of the performance metrics? 
+17. What tradeoffs are involved in choosing a higher or lower number of folds? 
+
+FINAL MODLE EVALUATION:
+18. What improvements would make this model more useful for real-world biological applications? 
+19. What additional data would strengthen the model’s reliability? 
+
+REGULARISED REGRESSION: RIDGE AND LASSO: 
+20. What does the mixture = 1 parameter mean? How would the model change if we set it to 0? 
+21. When would you prefer Ridge over Lasso for methylation data analysis? Consider the biological meaning of correlated CpG sites. 
+
+
+
 
 
 
